@@ -17,6 +17,8 @@ class App < Sinatra::Base
     @phrase
   end
 
-  get say/:word1/:word2/:word3/:word4/:word5
+  get say/:word1/:word2/:word3/:word4/:word5 do
+    
+  end
 
 end
